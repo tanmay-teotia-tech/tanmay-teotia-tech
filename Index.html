@@ -1,161 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Tanmay Teotia — Aspiring Software Engineer specializing in full-stack development, AI, and competitive programming.">
-<title>Tanmay Teotia — Aspiring Software Engineer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanmay Teotia | Portfolio</title>
+
+  <meta name="description" content="Tanmay Teotia - Aspiring Software Engineer, Full Stack Developer and AI Enthusiast">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/4b2b4d1d8f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-<nav class="tabbar" id="tabbar">
-  <a href="#about" class="active"><span class="dot" aria-hidden="true"></span>~/about</a>
-  <a href="#stack"><span class="dot" aria-hidden="true"></span>~/stack</a>
-  <a href="#projects"><span class="dot" aria-hidden="true"></span>~/projects</a>
-  <a href="#log"><span class="dot" aria-hidden="true"></span>~/log</a>
-  <a href="#contact"><span class="dot" aria-hidden="true"></span>~/contact</a>
+<div id="loader">
+    <h2>Loading Portfolio...</h2>
+</div>
+
+<header>
+
+<nav>
+
+<div class="logo">
+Tanmay<span>.</span>
+</div>
+
+<ul id="menu">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#stats">GitHub</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="menu-btn">
+<i class="fas fa-bars"></i>
+</div>
+
 </nav>
 
-<section class="hero" id="hero">
-  <div class="window">
-    <div class="window-bar">
-      <div class="traffic" aria-hidden="true"><span></span><span></span><span></span></div>
-      <span class="filename">tanmay.js</span>
-    </div>
-    <div class="window-body" id="typed-code"></div>
-  </div>
-  <div class="hero-links">
-    <a href="mailto:tanmayteotia01@gmail.com"><span class="prompt">$</span> mail tanmay</a>
-    <a href="https://linkedin.com/in/tanmay-teotia" target="_blank" rel="noopener"><span class="prompt">$</span> open linkedin</a>
-    <a href="https://github.com/tanmay-teotia-tech" target="_blank" rel="noopener"><span class="prompt">$</span> open github</a>
-  </div>
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h3>Hello 👋</h3>
+
+<h1>I'm <span>Tanmay Teotia</span></h1>
+
+<h2 id="typing"></h2>
+
+<p>
+
+B.Tech CSE Student at ABES Engineering College passionate about
+Full Stack Development, Artificial Intelligence and Competitive Programming.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#projects" class="btn">
+View Projects
+</a>
+
+<a href="mailto:tanmayteotia01@gmail.com" class="btn secondary">
+Contact Me
+</a>
+
+</div>
+
+<div class="socials">
+
+<a href="https://github.com/tanmay-teotia-tech" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://linkedin.com/in/tanmay-teotia" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="mailto:tanmayteotia01@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+
+</div>
+
+</div>
+
 </section>
 
 <section id="about">
-  <h2 class="section-title">// about</h2>
-  <div class="about-grid">
-    <div class="about-bio">
-      <p>I'm a Computer Science Engineering student at ABES Engineering College, Ghaziabad, currently figuring out how to get better at building things — mostly full-stack apps and DSA solutions, occasionally both at 1 a.m.</p>
-      <p>Most of my time goes into React/Node projects and grinding problems on LeetCode and CodeChef. Outside of that, I organize events for Trishul, my college's Defence Club, and mess around in Figma, Canva, and Blender when I need a break from code.</p>
-    </div>
-    <div class="fact-panel window">
-      <div class="window-bar">
-        <div class="traffic" aria-hidden="true"><span></span><span></span><span></span></div>
-        <span class="filename">profile.json</span>
-      </div>
-      <div class="window-body">
-        <div class="fact-row"><span class="fact-key">education</span><span class="fact-val">B.Tech CSE, ABES '29</span></div>
-        <div class="fact-row"><span class="fact-key">focus</span><span class="fact-val">Full-Stack, AI, DSA</span></div>
-        <div class="fact-row"><span class="fact-key">solved</span><span class="fact-val">500+ problems</span></div>
-        <div class="fact-row"><span class="fact-key">club</span><span class="fact-val">Trishul — Defence Club</span></div>
-        <div class="fact-row"><span class="fact-key">based_in</span><span class="fact-val">Ghaziabad, IN</span></div>
-        <div class="fact-row"><span class="fact-key">languages</span><span class="fact-val">English, Hindi</span></div>
-      </div>
-    </div>
-  </div>
+
+<div class="container">
+
+<h2 class="title">
+About Me
+</h2>
+
+<p>
+
+I'm an aspiring Software Engineer who enjoys building modern web
+applications and solving Data Structures & Algorithms problems.
+
+</p>
+
+<div class="about-grid">
+
+<div class="card">
+
+<h3>🎓 Education</h3>
+
+<p>
+
+B.Tech Computer Science Engineering
+
+<br>
+
+ABES Engineering College
+
+<br>
+
+2025 – 2029
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🚀 Focus</h3>
+
+<p>
+
+• Full Stack Development
+
+<br>
+
+• Artificial Intelligence
+
+<br>
+
+• DSA
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🏆 Achievements</h3>
+
+<p>
+
+500+ Problems Solved
+
+<br>
+
+CodeChef 3★
+
+<br>
+
+50 Day Coding Streak
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="stack">
-  <h2 class="section-title">// stack</h2>
+<section id="skills">
 
-  <div class="stack-group">
-    <p class="stack-import"><span class="kw">import</span> { C++, Python, JavaScript, HTML5, CSS3 } <span class="kw">from</span> <span class="str">"./languages"</span></p>
-    <div class="pill-row">
-      <span class="pill">C++</span><span class="pill">Python</span><span class="pill">JavaScript</span><span class="pill">HTML5</span><span class="pill">CSS3</span>
-    </div>
-  </div>
+<div class="container">
 
-  <div class="stack-group">
-    <p class="stack-import"><span class="kw">import</span> { React, Node.js, MongoDB, Firebase } <span class="kw">from</span> <span class="str">"./frameworks"</span></p>
-    <div class="pill-row">
-      <span class="pill">React</span><span class="pill">Node.js</span><span class="pill">MongoDB</span><span class="pill">Firebase</span>
-    </div>
-  </div>
+<h2 class="title">
+Tech Stack
+</h2>
 
-  <div class="stack-group">
-    <p class="stack-import"><span class="kw">import</span> { Git, GitHub, VS Code, Figma, Canva, Blender } <span class="kw">from</span> <span class="str">"./tools"</span></p>
-    <div class="pill-row">
-      <span class="pill">Git</span><span class="pill">GitHub</span><span class="pill">VS Code</span><span class="pill">Figma</span><span class="pill">Canva</span><span class="pill">Blender</span>
-    </div>
-  </div>
+<div class="skills">
+
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">React</div>
+<div class="skill">Node.js</div>
+<div class="skill">MongoDB</div>
+<div class="skill">Firebase</div>
+<div class="skill">Python</div>
+<div class="skill">C++</div>
+<div class="skill">Git</div>
+<div class="skill">GitHub</div>
+<div class="skill">Figma</div>
+
+</div>
+
+</div>
+
 </section>
 
 <section id="projects">
-  <h2 class="section-title">// projects</h2>
-  <div class="project-grid">
-    <div class="project-card window">
-      <div class="window-bar">
-        <div class="traffic" aria-hidden="true"><span></span><span></span><span></span></div>
-        <span class="filename">codemart/README.md</span>
-      </div>
-      <div class="window-body">
-        <h3>CodeMart</h3>
-        <p>AI-powered marketplace where students buy and sell academic resources, with intelligent recommendations baked in.</p>
-        <div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
-        <div class="repo-link">// add repo link here</div>
-      </div>
-    </div>
-    <div class="project-card window">
-      <div class="window-bar">
-        <div class="traffic" aria-hidden="true"><span></span><span></span><span></span></div>
-        <span class="filename">expense-tracker/README.md</span>
-      </div>
-      <div class="window-body">
-        <h3>Expense Tracker</h3>
-        <p>Interactive expense-tracking app with visual reports and spending analytics.</p>
-        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-        <div class="repo-link">// add repo link here</div>
-      </div>
-    </div>
-    <div class="project-card window">
-      <div class="window-bar">
-        <div class="traffic" aria-hidden="true"><span></span><span></span><span></span></div>
-        <span class="filename">qr-ordering/README.md</span>
-      </div>
-      <div class="window-body">
-        <h3>QR Food Ordering System</h3>
-        <p>QR-based ordering platform built for college canteens, made to cut down the lunch-line chaos.</p>
-        <div class="project-tags"><span>React</span><span>Firebase</span></div>
-        <div class="repo-link">// add repo link here</div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section id="log" class="log-section">
-  <h2 class="section-title on-dark">// log</h2>
-  <div class="window">
-    <div class="window-bar">
-      <div class="traffic" aria-hidden="true"><span></span><span></span><span></span></div>
-      <span class="filename">achievements.log</span>
-    </div>
-    <div class="window-body">
-      <div class="log-line"><span class="log-prompt">$</span> cat achievements.log</div>
-      <div class="log-line">&nbsp;</div>
-      <div class="log-line"><span class="log-check">[✓]</span> 500+ DSA problems solved — LeetCode &amp; CodeChef</div>
-      <div class="log-line"><span class="log-check">[✓]</span> CodeChef Gold Problem Solver Badge</div>
-      <div class="log-line"><span class="log-check">[✓]</span> 50-day CodeChef coding streak</div>
-      <div class="log-line"><span class="log-check">[✓]</span> 3★ rating on CodeChef</div>
-      <div class="log-line"><span class="log-check">[✓]</span> House Captain — 2 consecutive years</div>
-      <div class="log-line"><span class="log-check">[✓]</span> Ex-Council Member, Ryan International School</div>
-      <div class="log-line"><span class="log-check">[✓]</span> Event Organizer &amp; Volunteer — Trishul Defence Club</div>
-    </div>
-  </div>
-</section>
+<div class="container">
 
-<footer id="contact">
-  <div class="mono-line">$ whoami</div>
-  <h2>Tanmay Teotia — let's build something.</h2>
-  <div class="footer-links">
-    <a href="mailto:tanmayteotia01@gmail.com">Email</a>
-    <a href="https://linkedin.com/in/tanmay-teotia" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://github.com/tanmay-teotia-tech" target="_blank" rel="noopener">GitHub</a>
-  </div>
-</footer>
-<script src="script.js"></script>
-</body>
-</html>
+<h2 class="title">
+
+Featured Projects
+
+</h2>
+
+<div class="project-grid">
+
+<div class="project">
+
+<h3>CodeMart</h3>
+
+<p>
+
+AI-powered marketplace where students can buy and sell academic resources.
+
+</p>
+
+<span>React • Node • MongoDB</span>
+
+</div>
+
+<div class="project">
+
+<h3>Expense Tracker</h3>
+
+<p>
+
+Track expenses with reports and beautiful analytics.
+
+</p>
+
+<span>HTML • CSS • JavaScript</span>
+
+</div>
+
+<div class="project">
+
+<h3>QR Food Ordering</h3>
+
+<p>
+
+QR based ordering platform for college canteens.
+
+</p>
+
+<span>React • Firebase</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
