@@ -85,6 +85,16 @@ QR-based ordering platform developed for college canteens to simplify the food o
 </table>
 <br/>
 ### 📊 GitHub Stats
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tanmay-teotia-tech/tanmay-teotia-tech/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tanmay-teotia-tech/tanmay-teotia-tech/output/github-contribution-grid-snake.svg" />
+  <img alt="a snake eating Tanmay's GitHub contribution graph" src="https://raw.githubusercontent.com/tanmay-teotia-tech/tanmay-teotia-tech/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
  
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=tanmay-teotia-tech&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
